@@ -22,7 +22,7 @@ def get_project_structure(start_path, max_depth=-1):
         '.html',                        # HTML files
         '',                            # For files without extensions (like 'Dockerfile')
         '.yml', '.yaml',               # Docker Compose and other config files
-        '.env',                        # Environment files
+        #'.env',                        # Environment files
         '.dockerfile',                 # Docker-specific files
         '.json',                       # JSON files including package.json
         '.lock',                       # Lock files (yarn.lock, package-lock.json)
@@ -46,7 +46,7 @@ def get_project_structure(start_path, max_depth=-1):
         'requirements.txt',
         'Dockerfile',
         'docker-compose.yml',
-        '.env',
+        #'.env',
         'tailwind.config.js',           # Tailwind configuration
         'postcss.config.js'            # PostCSS configuration
     }
